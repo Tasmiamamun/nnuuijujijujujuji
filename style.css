@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: rgb(125, 21, 177);
+}
+
+
+
+h1{
+    width:100%;
+    background-color: rgb(221, 164, 95);
+}
+
+#show_sketch{
+float:right;
+}
+
+
+.modal-content{
+    text-align: center;
+}
+
+
+
+canvas{
+    border: 15px solid saddlebrown;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+   
+}
+
+
+@keyframes example{
+    from{box-shadow: 5px 5px 10px grey};
+    to{box-shadow: 5px 5px 10px whitesmoke}
+}
